@@ -1,0 +1,148 @@
+(footprint "16mm-POT-Right-Angle_LL"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.15 -20.25 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "80509735-099b-46ba-a989-18d9c3d29f69")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "16mm-POT-Right-Angle_LL"
+		(at 0.1 -14.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8b02df81-dce0-4a4b-87e7-6c3f0d432536")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "916e18e5-e290-4122-970b-4684f764e2ed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f5fbdce2-3fbe-4ea7-aacb-6b291ae3a7bc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5a74bbef-008d-424f-953d-1c86dae44bc6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1 -16)
+		(end 1 -16)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "94d83cae-be1f-44b8-8a94-27aa80fdc01a")
+	)
+	(fp_line
+		(start 0 -17)
+		(end 0 -15)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f5b41253-563a-4012-b11e-6043f1055ea2")
+	)
+	(fp_circle
+		(center 0 -16)
+		(end 8.5 -16)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "97e7faab-3011-42eb-9ac5-6ee7d9528009")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.05 -12.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "32462332-8628-427d-bc3a-9a41edabf0e4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at -5 0)
+		(size 3.5 2.5)
+		(drill oval 2.3 1.3208)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1434578f-61ea-4717-b269-e3c0863231ff")
+	)
+	(pad "2" thru_hole oval
+		(at 0 0)
+		(size 3.5 2.5)
+		(drill oval 2.3 1.3208)
+		(layers "*.Cu" "*.Mask" "Dwgs.User")
+		(remove_unused_layers no)
+		(uuid "85d29729-021e-4e90-92c1-880f8949d548")
+	)
+	(pad "3" thru_hole oval
+		(at 5 0)
+		(size 3.5 2.5)
+		(drill oval 2.3 1.3208)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "eec717b8-3c63-4d63-a59a-b62862a88e2c")
+	)
+	(model "C:/Users/mshea/OneDrive/Documents/KiCad/8.0/models3D/RV16AF-41(LL).step"
+		(offset
+			(xyz 0 16 5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
